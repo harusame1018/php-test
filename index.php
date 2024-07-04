@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <script>
-            const main = document.body;
-            let text = document.createElement("p");
-            text.innerText("hello javascript");
             window.onload = function() {
-                main.appendChild(text);
+                const body = document.body;
+                let a = document.createElement("p");
+                a.innerText = "hello javascript";
+                body.appendChild(a);
             }
         </script>
     </head>
