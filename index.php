@@ -15,3 +15,6 @@
         <h1>へっぉをｒｌｄ</h1>
     </body>
 </html>
+<?php
+echo "<h1>HELLO</h1>"
+ ?>
