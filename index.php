@@ -19,6 +19,8 @@
             <input type="text" name="simei" size="30">
             <h1>メールアドレス</h1>
             <input type="email" name="mail" size="30">
+            <h1>件名</h1>
+            <textarea name="text" rows="3" cols="50"></textarea>
             <input type="submit" size="30">
         </form>
     </body>

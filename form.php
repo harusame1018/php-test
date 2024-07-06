@@ -13,6 +13,6 @@
 $to = "ryuuyaryu@gmail.com";
 $name = $_POST["simei"];
 $from = "From:".$_POST["mail"];
-$subject = "test";
+$subject = $_POST["text"];
 mail($to, $name, $subject, $from);
 ?>
