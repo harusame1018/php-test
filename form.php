@@ -12,7 +12,7 @@
 <?php
 $to = "ryuuyaryu@gmail.com";
 $name = $_POST["simei"];
-$from = "From:" + $_POST["mail"];
+$from = "From:".$_POST["mail"];
 $subject = "test";
 mail($to, $name, $subject, $from);
 ?>
